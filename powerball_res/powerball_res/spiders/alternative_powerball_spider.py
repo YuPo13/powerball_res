@@ -6,7 +6,7 @@ from scraping_dates import url_for_scraping
 
 class PowerballResults(Spider):
     """This class represents the scraping instance"""
-    name = "powerball_spider"
+    name = "alternative_powerball_spider"
     allowed_domains = ["lottery.com"]
     start_urls = [
         url_for_scraping

@@ -7,7 +7,7 @@ from lxml import etree
 
 class PowerballResults(Spider):
     """This class represents the scraping instance"""
-    name = "alternative_powerball_spider"
+    name = "powerball_spider"
     allowed_domains = ["lottery.com"]
     start_urls = [
         url_for_scraping
